@@ -1,0 +1,10 @@
+name = "app-sample-backend-api"
+compatibility_date = "2023-10-25"
+account_id = "454e860ebc840b5a36d1e17da097d763"
+main = "./src/main.ts"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "app-sample-db"
+database_id = "38ba3ddb-597f-4ca1-8040-d3bde4063024"
+preview_database_id = "38ba3ddb-597f-4ca1-8040-d3bde4063024"

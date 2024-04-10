@@ -1,0 +1,4 @@
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "app-sample-db"
+database_id = "38ba3ddb-597f-4ca1-8040-d3bde4063024"

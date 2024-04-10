@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "cloudflare-app-sample",
+  "workspaces": [
+    "packages/*"
+  ]
+}

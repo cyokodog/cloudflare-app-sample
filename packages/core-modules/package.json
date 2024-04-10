@@ -1,0 +1,22 @@
+{
+  "name": "@cloudflare-app-sample/core-modules",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./mod/drizzle": "./src/mod/drizzle.ts",
+    "./database": "./src/database/index.ts",
+    "./database/utils": "./src/database/utils/index.ts"
+
+  },
+  "scripts": {
+    "generate": "drizzle-kit generate:sqlite --config ./drizzle.config.ts"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.14",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.30.7",
+    "ulidx": "^2.3.0"
+  }
+}
